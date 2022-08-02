@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "workoutGame.Web", "workoutGame.Web\workoutGame.Web.csproj", "{99A55E93-94D5-40BE-9A5B-F22155361F07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "workoutGame.Web", "workoutGame.Web\workoutGame.Web.csproj", "{99A55E93-94D5-40BE-9A5B-F22155361F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "workoutGame.Models", "workoutGame.Models\workoutGame.Models.csproj", "{C3E9FB43-40B8-4DCF-A065-49080AB936FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "workoutGame.ModelTests", "workoutGame.ModelTests\workoutGame.ModelTests.csproj", "{B1B67524-6D7B-4499-9A71-C54A954AAFFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{99A55E93-94D5-40BE-9A5B-F22155361F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99A55E93-94D5-40BE-9A5B-F22155361F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99A55E93-94D5-40BE-9A5B-F22155361F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E9FB43-40B8-4DCF-A065-49080AB936FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E9FB43-40B8-4DCF-A065-49080AB936FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E9FB43-40B8-4DCF-A065-49080AB936FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E9FB43-40B8-4DCF-A065-49080AB936FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B67524-6D7B-4499-9A71-C54A954AAFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B67524-6D7B-4499-9A71-C54A954AAFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B67524-6D7B-4499-9A71-C54A954AAFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B67524-6D7B-4499-9A71-C54A954AAFFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
